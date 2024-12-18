@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xaricdə Təhsil Avropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003d82;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .service {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #003d82;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #003d82;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xaricdə Təhsil Avropa</h1>
+        <p>Arzuladığınız universitetə çatmaq üçün yanınızdayıq!</p>
+    </header>
+
+    <nav>
+        <a href="#services">Xidmətlər</a>
+        <a href="#about">Haqqımızda</a>
+        <a href="#apply">Müraciət</a>
+        <a href="#contact">Əlaqə</a>
+    </nav>
+
+    <section id="services">
+        <h2>Xidmətlərimiz</h2>
+        <div class="service">
+            <h3>Universitet və Proqram Axtarışı</h3>
+            <p>Akademik hədəflərinizə uyğun ən yaxşı proqramları və universitetləri araşdırırıq.</p>
+        </div>
+        <div class="service">
+            <h3>Müraciət Sənədlərinin Hazırlanması</h3>
+            <p>CV və motivasiya məktublarınızı peşəkar şəkildə hazırlayırıq.</p>
+        </div>
+        <div class="service">
+            <h3>Viza Məsləhətçiliyi</h3>
+            <p>Viza müraciətlərində tələb olunan bütün proseslərdə sizə bələdçilik edirik.</p>
+        </div>
+        <a href="#apply" class="button">Müraciət Et</a>
+    </section>
+
+    <section id="about">
+        <h2>Haqqımızda</h2>
+        <p>Avropada təhsil almaq istəyən tələbələr üçün peşəkar məsləhət xidmətləri təqdim edirik. Məqsədimiz, hər bir tələbənin ən yaxşı universitetə çatmasını təmin etməkdir.</p>
+    </section>
+
+    <section id="apply">
+        <h2>Müraciət Et</h2>
+        <p>Xidmətlərimizdən yararlanmaq üçün aşağıdakı formu doldurun:</p>
+        <form>
+            <label for="name">Ad və Soyad:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">E-poçt:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="program">İstədiyiniz Proqram:</label><br>
+            <input type="text" id="program" name="program" required><br><br>
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit" class="button">Göndər</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Əlaqə</h2>
+        <p>Bizimlə əlaqə saxlamaq üçün aşağıdakı məlumatlardan istifadə edə bilərsiniz:</p>
+        <p>E-poçt: hikmathusaynov700@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Xaricdə Təhsil Avropa. Bütün hüquqlar qorunur.</p>
+    </footer>
+</body>
+</html>
